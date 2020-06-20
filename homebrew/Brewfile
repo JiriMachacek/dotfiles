@@ -1,0 +1,76 @@
+tap "caskroom/fonts"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "thoughtbot/formulae"
+brew "ack"
+brew "antigen"
+brew "autojump"
+brew "coreutils"
+brew "deno"
+brew "gcc"
+brew "git"
+brew "git-extras"
+brew "python"
+brew "graphviz"
+brew "kubernetes-cli", link: false
+brew "macvim"
+brew "mas"
+brew "nvm"
+brew "rcm"
+brew "tig"
+brew "tmux"
+brew "tree"
+brew "uptimed", restart_service: true
+brew "watchman"
+brew "wget"
+brew "wifi-password"
+brew "yarn"
+brew "zsh"
+cask "aerial"
+cask "authy"
+cask "datovka"
+cask "dictionaries"
+cask "double-commander"
+cask "font-fira-code"
+cask "font-jetbrains-mono"
+cask "hyper"
+cask "insomnia"
+cask "karabiner-elements"
+cask "knockknock"
+cask "mongodb-compass"
+cask "ngrok"
+cask "rocket"
+cask "taskexplorer"
+mas "Airmail", id: 918858936
+mas "Amphetamine", id: 937984704
+mas "Barista", id: 1479211328
+mas "Browserism", id: 979047768
+mas "Dynamo", id: 1445910651
+mas "Enpass", id: 732710998
+mas "Flycut", id: 442160987
+mas "Ghostery Lite", id: 1436953057
+mas "GoPro Player", id: 1460836908
+mas "Grammarly for Safari", id: 1462114288
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Lightshot Screenshot", id: 526298438
+mas "Magnet", id: 441258766
+mas "Messenger", id: 1480068668
+mas "MindNode", id: 1289197285
+mas "NordVPN IKE", id: 1116599239
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pocket", id: 568494494
+mas "Progress Bar", id: 1441939775
+mas "Save to Pocket", id: 1477385213
+mas "Slack", id: 803453959
+mas "Smart Banka", id: 1495977324
+mas "Speedtest", id: 1153157709
+mas "The Battery", id: 648110110
+mas "Things", id: 904280696
+mas "Twitter", id: 409789998
+mas "WhatsApp", id: 1147396723
+mas "Xcode", id: 497799835

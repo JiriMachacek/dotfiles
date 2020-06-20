@@ -1,0 +1,9 @@
+#!/bin/sh
+
+yarn config delete proxy 
+yarn config delete https-proxy
+yarn config delete registry
+yarn config delete strict-ssl
+yarn config delete disable-self-update-check 
+
+

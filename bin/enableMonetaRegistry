@@ -1,0 +1,7 @@
+#!/bin/sh
+disableMoneta
+#yarn config set proxy 'http://wsa.mbid.cz:8008'
+#yarn config set https-proxy  'http://wsa.mbid.cz:8008'
+yarn config set registry "https://sourcerepos/artifactory/api/npm/npm-all/" 
+yarn config set strict-ssl false
+yarn config set disable-self-update-check true

@@ -4,11 +4,14 @@
 [hub]
         protocol = https
 [alias]
+        f = fetch --all
         co = checkout
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
+[commit]
+	gpgsign = true
 [color]
         diff = auto
         status = auto
@@ -33,3 +36,5 @@
         default = simple
 [credential]
 	helper = osxkeychain
+[pull]
+	ff = only

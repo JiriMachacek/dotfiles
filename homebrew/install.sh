@@ -21,4 +21,9 @@ then
 
 fi
 
-exit 0
+
+brew update
+brew bundle -v
+brew upgrade
+brew cask upgrade
+brew cleanup

@@ -1,0 +1,5 @@
+#!/bin/sh
+disableMoneta
+yarn config set proxy 'http://wsa.mbid.cz:8008'
+yarn config set https-proxy  'http://wsa.mbid.cz:8008'
+
